@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/home/wave/repos/AspireTestApp/BlazorClickerApp/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.BlazorClickerApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.BlazorClickerApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.BlazorClickerApp.props",
+      "PackagePath": "build\\BlazorClickerApp.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.BlazorClickerApp.props",
+      "PackagePath": "buildMultiTargeting\\BlazorClickerApp.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.BlazorClickerApp.props",
+      "PackagePath": "buildTransitive\\BlazorClickerApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

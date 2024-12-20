@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/AspireTestApp.ClickerApi.props" />
+</Project>

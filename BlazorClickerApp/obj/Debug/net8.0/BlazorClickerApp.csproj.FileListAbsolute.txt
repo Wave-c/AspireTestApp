@@ -1,0 +1,55 @@
+C:/Users/301 student/Documents/Egor/BlazorClickerApp/bin/Debug/net8.0/BlazorClickerApp.staticwebassets.runtime.json
+C:/Users/301 student/Documents/Egor/BlazorClickerApp/bin/Debug/net8.0/BlazorClickerApp.exe
+C:/Users/301 student/Documents/Egor/BlazorClickerApp/bin/Debug/net8.0/BlazorClickerApp.deps.json
+C:/Users/301 student/Documents/Egor/BlazorClickerApp/bin/Debug/net8.0/BlazorClickerApp.runtimeconfig.json
+C:/Users/301 student/Documents/Egor/BlazorClickerApp/bin/Debug/net8.0/BlazorClickerApp.dll
+C:/Users/301 student/Documents/Egor/BlazorClickerApp/bin/Debug/net8.0/BlazorClickerApp.pdb
+C:/Users/301 student/Documents/Egor/BlazorClickerApp/obj/Debug/net8.0/BlazorClickerApp.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/301 student/Documents/Egor/BlazorClickerApp/obj/Debug/net8.0/BlazorClickerApp.AssemblyInfoInputs.cache
+C:/Users/301 student/Documents/Egor/BlazorClickerApp/obj/Debug/net8.0/BlazorClickerApp.AssemblyInfo.cs
+C:/Users/301 student/Documents/Egor/BlazorClickerApp/obj/Debug/net8.0/BlazorClickerApp.csproj.CoreCompileInputs.cache
+C:/Users/301 student/Documents/Egor/BlazorClickerApp/obj/Debug/net8.0/BlazorClickerApp.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/301 student/Documents/Egor/BlazorClickerApp/obj/Debug/net8.0/BlazorClickerApp.RazorAssemblyInfo.cache
+C:/Users/301 student/Documents/Egor/BlazorClickerApp/obj/Debug/net8.0/BlazorClickerApp.RazorAssemblyInfo.cs
+C:/Users/301 student/Documents/Egor/BlazorClickerApp/obj/Debug/net8.0/staticwebassets.build.json
+C:/Users/301 student/Documents/Egor/BlazorClickerApp/obj/Debug/net8.0/staticwebassets.development.json
+C:/Users/301 student/Documents/Egor/BlazorClickerApp/obj/Debug/net8.0/staticwebassets/msbuild.BlazorClickerApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/301 student/Documents/Egor/BlazorClickerApp/obj/Debug/net8.0/staticwebassets/msbuild.build.BlazorClickerApp.props
+C:/Users/301 student/Documents/Egor/BlazorClickerApp/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.BlazorClickerApp.props
+C:/Users/301 student/Documents/Egor/BlazorClickerApp/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.BlazorClickerApp.props
+C:/Users/301 student/Documents/Egor/BlazorClickerApp/obj/Debug/net8.0/staticwebassets.pack.json
+C:/Users/301 student/Documents/Egor/BlazorClickerApp/obj/Debug/net8.0/scopedcss/bundle/BlazorClickerApp.styles.css
+C:/Users/301 student/Documents/Egor/BlazorClickerApp/obj/Debug/net8.0/BlazorClickerApp.dll
+C:/Users/301 student/Documents/Egor/BlazorClickerApp/obj/Debug/net8.0/refint/BlazorClickerApp.dll
+C:/Users/301 student/Documents/Egor/BlazorClickerApp/obj/Debug/net8.0/BlazorClickerApp.pdb
+C:/Users/301 student/Documents/Egor/BlazorClickerApp/obj/Debug/net8.0/BlazorClickerApp.genruntimeconfig.cache
+C:/Users/301 student/Documents/Egor/BlazorClickerApp/obj/Debug/net8.0/ref/BlazorClickerApp.dll
+/home/wave/repos/AspireTestApp/BlazorClickerApp/bin/Debug/net8.0/BlazorClickerApp.staticwebassets.runtime.json
+/home/wave/repos/AspireTestApp/BlazorClickerApp/bin/Debug/net8.0/BlazorClickerApp.staticwebassets.endpoints.json
+/home/wave/repos/AspireTestApp/BlazorClickerApp/bin/Debug/net8.0/BlazorClickerApp
+/home/wave/repos/AspireTestApp/BlazorClickerApp/bin/Debug/net8.0/BlazorClickerApp.deps.json
+/home/wave/repos/AspireTestApp/BlazorClickerApp/bin/Debug/net8.0/BlazorClickerApp.runtimeconfig.json
+/home/wave/repos/AspireTestApp/BlazorClickerApp/bin/Debug/net8.0/BlazorClickerApp.dll
+/home/wave/repos/AspireTestApp/BlazorClickerApp/bin/Debug/net8.0/BlazorClickerApp.pdb
+/home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net8.0/BlazorClickerApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net8.0/BlazorClickerApp.AssemblyInfoInputs.cache
+/home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net8.0/BlazorClickerApp.AssemblyInfo.cs
+/home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net8.0/BlazorClickerApp.csproj.CoreCompileInputs.cache
+/home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net8.0/BlazorClickerApp.MvcApplicationPartsAssemblyInfo.cache
+/home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net8.0/BlazorClickerApp.RazorAssemblyInfo.cache
+/home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net8.0/BlazorClickerApp.RazorAssemblyInfo.cs
+/home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net8.0/scopedcss/bundle/BlazorClickerApp.styles.css
+/home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net8.0/staticwebassets.build.json
+/home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net8.0/staticwebassets.development.json
+/home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+/home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net8.0/staticwebassets/msbuild.BlazorClickerApp.Microsoft.AspNetCore.StaticWebAssets.props
+/home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net8.0/staticwebassets/msbuild.BlazorClickerApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net8.0/staticwebassets/msbuild.build.BlazorClickerApp.props
+/home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.BlazorClickerApp.props
+/home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.BlazorClickerApp.props
+/home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net8.0/staticwebassets.pack.json
+/home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net8.0/BlazorClickerApp.dll
+/home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net8.0/refint/BlazorClickerApp.dll
+/home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net8.0/BlazorClickerApp.pdb
+/home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net8.0/BlazorClickerApp.genruntimeconfig.cache
+/home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net8.0/ref/BlazorClickerApp.dll

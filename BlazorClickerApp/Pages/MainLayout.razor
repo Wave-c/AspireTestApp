@@ -1,0 +1,40 @@
+@using BlazorClickerApp.Entities
+@inherits LayoutComponentBase
+
+@inject ClickApiClient apiClient;
+
+<div class="main-layout">
+    <header>
+        <h1>Blazor Clicker</h1>
+        <button @onclick = "OnClickHandler"></button>
+    </header>
+    <div class="body">
+        @Body
+    </div>
+</div>
+
+<style>
+    .main-layout {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+    }
+    header {
+        background-color: #007bff;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+    .body {
+        margin-top: 20px;
+    }
+</style>
+
+@code
+{
+    public static User StateUser { get; private set; }
+
+    public async Task OnClickHandler()
+    {
+        StateUser = await apiClient.Register(new Entities.User(){ Id = Guid.NewGuid() });
+    }
+}

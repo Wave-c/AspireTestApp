@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "Hash": "I4D38Tt5KVSvHdPLThqNbQznUfNkHcdHUc7hEqrwyOY=",
+  "Source": "BlazorClickerApp",
+  "BasePath": "_content/BlazorClickerApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BlazorClickerApp/wwwroot",
+      "Source": "BlazorClickerApp",
+      "ContentRoot": "/home/wave/repos/AspireTestApp/BlazorClickerApp/wwwroot/",
+      "BasePath": "_content/BlazorClickerApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net9.0/compressed/a05o6k27ir-a8ba4pmh7i.gz",
+      "SourceId": "BlazorClickerApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/BlazorClickerApp",
+      "RelativePath": "css/app#[.{fingerprint=a8ba4pmh7i}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/wave/repos/AspireTestApp/BlazorClickerApp/wwwroot/css/app.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "u2yv89658o",
+      "Integrity": "RiodE58MSwUYgj7gmMgZ+lMM1VI232V6BHyWyP3COjc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/wave/repos/AspireTestApp/BlazorClickerApp/wwwroot/css/app.css"
+    },
+    {
+      "Identity": "/home/wave/repos/AspireTestApp/BlazorClickerApp/wwwroot/css/app.css",
+      "SourceId": "BlazorClickerApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/wave/repos/AspireTestApp/BlazorClickerApp/wwwroot/",
+      "BasePath": "_content/BlazorClickerApp",
+      "RelativePath": "css/app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a8ba4pmh7i",
+      "Integrity": "poALXTXvzwKFN3/BGE6jcQscoEFJDvHyGhheHTd6PSw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/app.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/app.a8ba4pmh7i.css",
+      "AssetFile": "/home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net9.0/compressed/a05o6k27ir-a8ba4pmh7i.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.006097560976"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "163"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RiodE58MSwUYgj7gmMgZ+lMM1VI232V6BHyWyP3COjc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 14:50:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"poALXTXvzwKFN3/BGE6jcQscoEFJDvHyGhheHTd6PSw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a8ba4pmh7i"
+        },
+        {
+          "Name": "label",
+          "Value": "css/app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-poALXTXvzwKFN3/BGE6jcQscoEFJDvHyGhheHTd6PSw="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.a8ba4pmh7i.css",
+      "AssetFile": "/home/wave/repos/AspireTestApp/BlazorClickerApp/wwwroot/css/app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"poALXTXvzwKFN3/BGE6jcQscoEFJDvHyGhheHTd6PSw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 14:50:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a8ba4pmh7i"
+        },
+        {
+          "Name": "label",
+          "Value": "css/app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-poALXTXvzwKFN3/BGE6jcQscoEFJDvHyGhheHTd6PSw="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.a8ba4pmh7i.css.gz",
+      "AssetFile": "/home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net9.0/compressed/a05o6k27ir-a8ba4pmh7i.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "163"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RiodE58MSwUYgj7gmMgZ+lMM1VI232V6BHyWyP3COjc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 14:50:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a8ba4pmh7i"
+        },
+        {
+          "Name": "label",
+          "Value": "css/app.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RiodE58MSwUYgj7gmMgZ+lMM1VI232V6BHyWyP3COjc="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.css",
+      "AssetFile": "/home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net9.0/compressed/a05o6k27ir-a8ba4pmh7i.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.006097560976"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "163"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RiodE58MSwUYgj7gmMgZ+lMM1VI232V6BHyWyP3COjc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 14:50:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"poALXTXvzwKFN3/BGE6jcQscoEFJDvHyGhheHTd6PSw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-poALXTXvzwKFN3/BGE6jcQscoEFJDvHyGhheHTd6PSw="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.css",
+      "AssetFile": "/home/wave/repos/AspireTestApp/BlazorClickerApp/wwwroot/css/app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"poALXTXvzwKFN3/BGE6jcQscoEFJDvHyGhheHTd6PSw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 14:50:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-poALXTXvzwKFN3/BGE6jcQscoEFJDvHyGhheHTd6PSw="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.css.gz",
+      "AssetFile": "/home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net9.0/compressed/a05o6k27ir-a8ba4pmh7i.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "163"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RiodE58MSwUYgj7gmMgZ+lMM1VI232V6BHyWyP3COjc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 16 Dec 2024 14:50:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RiodE58MSwUYgj7gmMgZ+lMM1VI232V6BHyWyP3COjc="
+        }
+      ]
+    }
+  ]
+}

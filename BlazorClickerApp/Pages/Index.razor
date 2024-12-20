@@ -1,0 +1,28 @@
+@page "/"
+<h1 class="text-center mt-5">Clicker App</h1>
+
+<div class="container text-center mt-4">
+    <p class="display-4">Clicks: @Count</p>
+    <button class="btn btn-primary btn-lg me-3" @onclick="IncrementCount">Click Me!</button>
+    <button class="btn btn-danger btn-lg" @onclick="ResetCount">Reset</button>
+    <button @onclick = "Submit">submit</button>
+</div>
+
+@code {
+    private int Count = 0;
+
+    private void IncrementCount()
+    {
+        MainLayout.StateUser.ClicksCount++;
+    }
+
+    private void ResetCount()
+    {
+        Count = 0;
+    }
+
+    private void Submit()
+    {
+        //TODO:: Реализовать
+    }
+}
