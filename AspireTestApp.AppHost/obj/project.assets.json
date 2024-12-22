@@ -131,6 +131,41 @@
           "buildMultiTargeting/Aspire.Hosting.AppHost.targets": {}
         }
       },
+      "Aspire.Hosting.NodeJs/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AspNetCore.HealthChecks.Uris": "8.0.1",
+          "Aspire.Hosting": "9.0.0",
+          "Google.Protobuf": "3.28.2",
+          "Grpc.AspNetCore": "2.66.0",
+          "Grpc.Net.ClientFactory": "2.66.0",
+          "Grpc.Tools": "2.67.0",
+          "Humanizer.Core": "2.14.1",
+          "JsonPatch.Net": "3.1.1",
+          "KubernetesClient": "15.0.1",
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "8.0.11",
+          "Microsoft.Extensions.Hosting": "8.0.1",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Http": "8.0.1",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
+          "Microsoft.Extensions.Options": "8.0.2",
+          "Microsoft.Extensions.Primitives": "8.0.0",
+          "Polly.Core": "8.4.2"
+        },
+        "compile": {
+          "lib/net8.0/Aspire.Hosting.NodeJs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Aspire.Hosting.NodeJs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Aspire.Hosting.Orchestration.linux-x64/9.0.0": {
         "type": "package",
         "build": {
@@ -222,6 +257,23 @@
         },
         "runtime": {
           "lib/net9.0/CommunityToolkit.Aspire.Hosting.Java.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Aspire.Hosting.NodeJS.Extensions/9.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Aspire.Hosting": "9.0.0",
+          "Aspire.Hosting.NodeJS": "9.0.0"
+        },
+        "compile": {
+          "lib/net9.0/CommunityToolkit.Aspire.Hosting.NodeJS.Extensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/CommunityToolkit.Aspire.Hosting.NodeJS.Extensions.dll": {
             "related": ".xml"
           }
         }
@@ -1442,6 +1494,22 @@
         "lib/net9.0/Aspire.Hosting.AppHost.xml"
       ]
     },
+    "Aspire.Hosting.NodeJs/9.0.0": {
+      "sha512": "xbixUT0us2Rsas7GAao7xjAcb7EriUEUxgwnlix+gV5AUV4ZRnAp6dcwhsiObWzAwL6yGAsEH4UpPIjW/+Z/iQ==",
+      "type": "package",
+      "path": "aspire.hosting.nodejs/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "README.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "aspire.hosting.nodejs.9.0.0.nupkg.sha512",
+        "aspire.hosting.nodejs.nuspec",
+        "lib/net8.0/Aspire.Hosting.NodeJs.dll",
+        "lib/net8.0/Aspire.Hosting.NodeJs.xml"
+      ]
+    },
     "Aspire.Hosting.Orchestration.linux-x64/9.0.0": {
       "sha512": "4MBl+WGzgk5OR3FOGI8SILaDu7im5ZFMeUcZe4dsRNGATp6SUdO+dDR3AzbXKCEOVE5xI80dJRiUi5Necwq/2Q==",
       "type": "package",
@@ -1530,6 +1598,23 @@
         "lib/net8.0/CommunityToolkit.Aspire.Hosting.Java.xml",
         "lib/net9.0/CommunityToolkit.Aspire.Hosting.Java.dll",
         "lib/net9.0/CommunityToolkit.Aspire.Hosting.Java.xml",
+        "nuget.png"
+      ]
+    },
+    "CommunityToolkit.Aspire.Hosting.NodeJS.Extensions/9.1.0": {
+      "sha512": "9zVdSN19PWPT2c7ZUkhcEfse0C9tNt9gUXBGpUcwwMA8wNgOCEVxIxRnxTwpCy0i7UHIkjlYEjtu6Lwu8p+gvw==",
+      "type": "package",
+      "path": "communitytoolkit.aspire.hosting.nodejs.extensions/9.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "communitytoolkit.aspire.hosting.nodejs.extensions.9.1.0.nupkg.sha512",
+        "communitytoolkit.aspire.hosting.nodejs.extensions.nuspec",
+        "lib/net8.0/CommunityToolkit.Aspire.Hosting.NodeJS.Extensions.dll",
+        "lib/net8.0/CommunityToolkit.Aspire.Hosting.NodeJS.Extensions.xml",
+        "lib/net9.0/CommunityToolkit.Aspire.Hosting.NodeJS.Extensions.dll",
+        "lib/net9.0/CommunityToolkit.Aspire.Hosting.NodeJS.Extensions.xml",
         "nuget.png"
       ]
     },
@@ -3060,7 +3145,8 @@
       "Aspire.Hosting.AppHost >= 9.0.0",
       "Aspire.Hosting.Orchestration.linux-x64 >= 9.0.0",
       "Aspire.Hosting.PostgreSQL >= 9.0.0",
-      "CommunityToolkit.Aspire.Hosting.Java >= 9.1.0"
+      "CommunityToolkit.Aspire.Hosting.Java >= 9.1.0",
+      "CommunityToolkit.Aspire.Hosting.NodeJS.Extensions >= 9.1.0"
     ]
   },
   "packageFolders": {
@@ -3126,6 +3212,10 @@
             "version": "[9.0.0, )"
           },
           "CommunityToolkit.Aspire.Hosting.Java": {
+            "target": "Package",
+            "version": "[9.1.0, )"
+          },
+          "CommunityToolkit.Aspire.Hosting.NodeJS.Extensions": {
             "target": "Package",
             "version": "[9.1.0, )"
           }

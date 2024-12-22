@@ -20,9 +20,16 @@ internal class Program
                                                    OtelAgentPath = "/home/wave/repos/AspireTestApp/agents"
                                                });
 
-        builder.AddProject<Projects.BlazorClickerApp>("clicker-frontend")
+        //builder.AddProject<Projects.BlazorClickerApp>("clicker-frontend")
+        //    .WithExternalHttpEndpoints()
+        //    .WaitFor(clickerApi);
+
+        builder.AddNpmApp("click-front", "../AspireTestApp.FrontEndOnNormalLang/click_front")
+            .WithReference(clickerApi)
+            .WaitFor(clickerApi)
+            .WithHttpEndpoint(3001, targetPort: 3000)
             .WithExternalHttpEndpoints()
-            .WaitFor(clickerApi);
+            .WithEnvironment("BROWSER", "none");
 
         builder.Build().Run();
     }

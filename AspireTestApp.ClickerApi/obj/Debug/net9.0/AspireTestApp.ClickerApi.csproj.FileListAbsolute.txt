@@ -68,3 +68,4 @@
 /home/wave/repos/AspireTestApp/AspireTestApp.ClickerApi/obj/Debug/net9.0/AspireTestApp.ClickerApi.pdb
 /home/wave/repos/AspireTestApp/AspireTestApp.ClickerApi/obj/Debug/net9.0/AspireTestApp.ClickerApi.genruntimeconfig.cache
 /home/wave/repos/AspireTestApp/AspireTestApp.ClickerApi/obj/Debug/net9.0/ref/AspireTestApp.ClickerApi.dll
+/home/wave/repos/AspireTestApp/AspireTestApp.ClickerApi/obj/Debug/net9.0/AspireTestApp.ClickerApi.sourcelink.json

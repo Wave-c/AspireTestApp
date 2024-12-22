@@ -5,8 +5,10 @@ namespace ClickerApi.Services
 {
     public class UserService(ClickerDBContext dbContext)
     {
-        public async Task<User> Register(User user)
+        public async Task<User> Register()
         {
+            User user = new User();
+            
             user.ClicksCount = 0;
 
             user.Id = Guid.NewGuid();

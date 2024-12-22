@@ -10,3 +10,4 @@
 /home/wave/repos/AspireTestApp/AspireTestApp.ServiceDefaults/obj/Debug/net9.0/refint/AspireTestApp.ServiceDefaults.dll
 /home/wave/repos/AspireTestApp/AspireTestApp.ServiceDefaults/obj/Debug/net9.0/AspireTestApp.ServiceDefaults.pdb
 /home/wave/repos/AspireTestApp/AspireTestApp.ServiceDefaults/obj/Debug/net9.0/ref/AspireTestApp.ServiceDefaults.dll
+/home/wave/repos/AspireTestApp/AspireTestApp.ServiceDefaults/obj/Debug/net9.0/AspireTestApp.ServiceDefaults.sourcelink.json

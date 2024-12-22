@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Json;
@@ -8,14 +9,20 @@ using BlazorClickerApp.Entities;
 
 namespace BlazorClickerApp
 {
-    public class ClickApiClient(HttpClient httpClient)
+    public class ClickApiClient(HttpClient httpClient) : IDisposable
     {
         public async Task Click(User user)
         {
-            if((await httpClient.GetAsync("/click?")).StatusCode == System.Net.HttpStatusCode.OK)
+            JsonContent jsonContent = JsonContent.Create(user);
+            if((await httpClient.PostAsync("https://clickerApi/click", jsonContent)).StatusCode == System.Net.HttpStatusCode.OK)
             {
                 
             }
+        }
+
+        public void Dispose()
+        {
+            httpClient.Dispose();
         }
 
         public async Task<User> Register(User regUser)

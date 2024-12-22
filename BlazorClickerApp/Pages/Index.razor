@@ -11,9 +11,13 @@
 @code {
     private int Count = 0;
 
-    private void IncrementCount()
+    private async Task IncrementCount()
     {
-        MainLayout.StateUser.ClicksCount++;
+        //MainLayout.StateUser.ClicksCount++;
+        using(ClickApiClient apiClient = new ClickApiClient(new System.Net.Http.HttpClient()))
+        {
+            await apiClient.Click(null);
+        }
     }
 
     private void ResetCount()

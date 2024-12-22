@@ -9,9 +9,10 @@ namespace ClickerApi.Controllers
         private UserService userService;
 
         [HttpPost("/sign-up")]
-        public async Task<User> RegUser([FromBody] User user)
+        public async Task<User> RegUser()
         {
-            return await userService.Register(user);
+            Console.WriteLine("aaaa");
+            return await userService.Register();
         }
 
         [HttpPost("/sign-in")]

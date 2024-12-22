@@ -60,3 +60,6 @@
 /home/wave/repos/AspireTestApp/AspireTestApp.AppHost/obj/Debug/net9.0/ref/AspireTestApp.AppHost.dll
 /home/wave/repos/AspireTestApp/AspireTestApp.AppHost/bin/Debug/net9.0/CommunityToolkit.Aspire.Hosting.Java.dll
 /home/wave/repos/AspireTestApp/AspireTestApp.AppHost/obj/Debug/net9.0/Aspire/references/AspireTestApp_ClickerApi.ProjectMetadata.g.cs
+/home/wave/repos/AspireTestApp/AspireTestApp.AppHost/obj/Debug/net9.0/AspireTestApp.AppHost.sourcelink.json
+/home/wave/repos/AspireTestApp/AspireTestApp.AppHost/bin/Debug/net9.0/Aspire.Hosting.NodeJs.dll
+/home/wave/repos/AspireTestApp/AspireTestApp.AppHost/bin/Debug/net9.0/CommunityToolkit.Aspire.Hosting.NodeJS.Extensions.dll

@@ -61,3 +61,4 @@
 /home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net9.0/ref/BlazorClickerApp.dll
 /home/wave/repos/AspireTestApp/BlazorClickerApp/bin/Debug/net9.0/appsettings.Development.json
 /home/wave/repos/AspireTestApp/BlazorClickerApp/bin/Debug/net9.0/appsettings.json
+/home/wave/repos/AspireTestApp/BlazorClickerApp/obj/Debug/net9.0/BlazorClickerApp.sourcelink.json

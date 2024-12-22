@@ -66,6 +66,10 @@
             "CommunityToolkit.Aspire.Hosting.Java": {
               "target": "Package",
               "version": "[9.1.0, )"
+            },
+            "CommunityToolkit.Aspire.Hosting.NodeJS.Extensions": {
+              "target": "Package",
+              "version": "[9.1.0, )"
             }
           },
           "imports": [
