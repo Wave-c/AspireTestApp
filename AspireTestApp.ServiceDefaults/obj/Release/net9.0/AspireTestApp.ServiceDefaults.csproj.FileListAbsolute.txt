@@ -1,0 +1,13 @@
+/home/wave/repos/AspireTestApp/AspireTestApp.ServiceDefaults/bin/Release/net9.0/AspireTestApp.ServiceDefaults.deps.json
+/home/wave/repos/AspireTestApp/AspireTestApp.ServiceDefaults/bin/Release/net9.0/AspireTestApp.ServiceDefaults.dll
+/home/wave/repos/AspireTestApp/AspireTestApp.ServiceDefaults/bin/Release/net9.0/AspireTestApp.ServiceDefaults.pdb
+/home/wave/repos/AspireTestApp/AspireTestApp.ServiceDefaults/obj/Release/net9.0/AspireTestApp.ServiceDefaults.csproj.AssemblyReference.cache
+/home/wave/repos/AspireTestApp/AspireTestApp.ServiceDefaults/obj/Release/net9.0/AspireTestApp.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+/home/wave/repos/AspireTestApp/AspireTestApp.ServiceDefaults/obj/Release/net9.0/AspireTestApp.ServiceDefaults.AssemblyInfoInputs.cache
+/home/wave/repos/AspireTestApp/AspireTestApp.ServiceDefaults/obj/Release/net9.0/AspireTestApp.ServiceDefaults.AssemblyInfo.cs
+/home/wave/repos/AspireTestApp/AspireTestApp.ServiceDefaults/obj/Release/net9.0/AspireTestApp.ServiceDefaults.csproj.CoreCompileInputs.cache
+/home/wave/repos/AspireTestApp/AspireTestApp.ServiceDefaults/obj/Release/net9.0/AspireTestApp.ServiceDefaults.sourcelink.json
+/home/wave/repos/AspireTestApp/AspireTestApp.ServiceDefaults/obj/Release/net9.0/AspireTestApp.ServiceDefaults.dll
+/home/wave/repos/AspireTestApp/AspireTestApp.ServiceDefaults/obj/Release/net9.0/refint/AspireTestApp.ServiceDefaults.dll
+/home/wave/repos/AspireTestApp/AspireTestApp.ServiceDefaults/obj/Release/net9.0/AspireTestApp.ServiceDefaults.pdb
+/home/wave/repos/AspireTestApp/AspireTestApp.ServiceDefaults/obj/Release/net9.0/ref/AspireTestApp.ServiceDefaults.dll

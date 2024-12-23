@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json.schemastore.org/aspire-8.0.json",
+  "resources": {
+    "pg-server": {
+      "type": "container.v0",
+      "connectionString": "Host={pg-server.bindings.tcp.host};Port={pg-server.bindings.tcp.port};Username=postgres;Password={pg-server-password.value}",
+      "image": "docker.io/library/postgres:17.0",
+      "env": {
+        "POSTGRES_HOST_AUTH_METHOD": "scram-sha-256",
+        "POSTGRES_INITDB_ARGS": "--auth-host=scram-sha-256 --auth-local=scram-sha-256",
+        "POSTGRES_USER": "postgres",
+        "POSTGRES_PASSWORD": "{pg-server-password.value}"
+      },
+      "bindings": {
+        "tcp": {
+          "scheme": "tcp",
+          "protocol": "tcp",
+          "transport": "tcp",
+          "targetPort": 5432
+        }
+      }
+    },
+    "user-database": {
+      "type": "value.v0",
+      "connectionString": "{pg-server.connectionString};Database=UserClickDB"
+    },
+    "clickerApi": {
+      "type": "project.v0",
+      "path": "../AspireTestApp.ClickerApi/AspireTestApp.ClickerApi.csproj",
+      "env": {
+        "OTEL_DOTNET_EXPERIMENTAL_OTLP_EMIT_EXCEPTION_LOG_ATTRIBUTES": "true",
+        "OTEL_DOTNET_EXPERIMENTAL_OTLP_EMIT_EVENT_LOG_ATTRIBUTES": "true",
+        "OTEL_DOTNET_EXPERIMENTAL_OTLP_RETRY": "in_memory",
+        "ASPNETCORE_FORWARDEDHEADERS_ENABLED": "true",
+        "HTTP_PORTS": "{clickerApi.bindings.http.targetPort}",
+        "ConnectionStrings__user-database": "{user-database.connectionString}"
+      },
+      "bindings": {
+        "http": {
+          "scheme": "http",
+          "protocol": "tcp",
+          "transport": "http"
+        },
+        "https": {
+          "scheme": "https",
+          "protocol": "tcp",
+          "transport": "http"
+        }
+      }
+    },
+    "click-front": {
+      "type": "executable.v0",
+      "workingDirectory": "../AspireTestApp.FrontEndOnNormalLang/click_front",
+      "command": "npm",
+      "args": [
+        "run",
+        "start"
+      ],
+      "env": {
+        "NODE_ENV": "development",
+        "services__clickerApi__http__0": "{clickerApi.bindings.http.url}",
+        "services__clickerApi__https__0": "{clickerApi.bindings.https.url}",
+        "BROWSER": "none"
+      },
+      "bindings": {
+        "http": {
+          "scheme": "http",
+          "protocol": "tcp",
+          "transport": "http",
+          "port": 3001,
+          "targetPort": 3000,
+          "external": true
+        }
+      }
+    },
+    "pg-server-password": {
+      "type": "parameter.v0",
+      "value": "{pg-server-password.inputs.value}",
+      "inputs": {
+        "value": {
+          "type": "string",
+          "secret": true,
+          "default": {
+            "generate": {
+              "minLength": 22
+            }
+          }
+        }
+      }
+    }
+  }
+}

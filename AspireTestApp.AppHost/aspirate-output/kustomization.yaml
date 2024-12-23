@@ -1,0 +1,9 @@
+resources:
+- pg-server
+- clickerApi
+- dashboard.yaml
+
+generatorOptions:
+  disableNameSuffixHash: true
+
+

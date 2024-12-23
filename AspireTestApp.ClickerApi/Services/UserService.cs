@@ -1,9 +1,10 @@
 using ClickerApi.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure.Internal;
 
 namespace ClickerApi.Services
 {
-    public class UserService(ClickerDBContext dbContext)
+    public class UserService(ClickerDBContext dbContext) : IUserService
     {
         public async Task<User> Register()
         {
@@ -11,9 +12,11 @@ namespace ClickerApi.Services
             
             user.ClicksCount = 0;
 
-            user.Id = Guid.NewGuid();
+            user.Id = Guid.NewGuid().ToString();
 
-            await dbContext.AddAsync(user);
+            Console.WriteLine(user.Id);
+
+            await dbContext.Users.AddAsync(user);
             await dbContext.SaveChangesAsync();
 
             return user;

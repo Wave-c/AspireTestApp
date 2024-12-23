@@ -11,5 +11,11 @@ namespace ClickerApi.Entities
         {
             Database.EnsureCreated();
         }
+
+        public ClickerDBContext() 
+            :base()
+        {
+            Database.EnsureCreated();
+        }
     }
 }

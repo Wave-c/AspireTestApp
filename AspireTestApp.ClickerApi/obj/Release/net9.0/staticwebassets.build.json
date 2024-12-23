@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "VVLz0evhVQm1EFLsaSOiQ3Q1q2v5OKzsxo9zuqHuwPo=",
+  "Source": "AspireTestApp.ClickerApi",
+  "BasePath": "_content/AspireTestApp.ClickerApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

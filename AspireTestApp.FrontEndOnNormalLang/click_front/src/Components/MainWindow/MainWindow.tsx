@@ -1,28 +1,33 @@
-import BodyComp from "../Body/BodyComp.tsx";
+import BodyComp from "../Body/BodyComp";
 import "./MainWindow.css"
 import React from 'react';
-import { FC, useContext, useEffect} from 'react';
+import { FC, useContext, useEffect, useState} from 'react';
 import { observer } from 'mobx-react-lite';
-import { Context } from "../../index.tsx";
+import { Context } from "../../index";
+import User from "../../Models/User";
 
 
 const MainWindow : FC = () =>
 {
+    const [id, setid] = useState("Нету(");
     const {store} = useContext(Context);
-    var id;
+
+    store.setUser(new User())
+
     try
     {
         useEffect(() => 
         {
-            if(store.user.Id == undefined && localStorage.getItem("id") == null)
+            console.log(store.getIsAuth())
+            if(!store.isAuth)
             {
-                id = "Нету(";
+                setid("Нету(");
             }
             else
             {
-                id = store.user.Id;
+                setid(store.getUser().Id);
             }
-        }, [store.user.Id]);
+        }, [store.isAuth]);
     }
     catch(e)
     {

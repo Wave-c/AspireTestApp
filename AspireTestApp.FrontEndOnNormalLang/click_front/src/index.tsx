@@ -2,13 +2,16 @@ import React, { createContext } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import MainWindow from './Components/MainWindow/MainWindow.tsx';
-import Store from './Store/Store.ts';
+import MainWindow from './Components/MainWindow/MainWindow';
+import Store from './Store/Store';
 
+interface State {
+  store : Store
+}
 
 const store = new Store();
 
-export const Context = createContext({
+export const Context = createContext<State>({
   store
 });
 

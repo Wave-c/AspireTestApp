@@ -1,5 +1,5 @@
 import { AxiosResponse } from "axios";
-import { $auth_api } from "../http/index.ts";
+import { $auth_api } from "../http/index";
 import User from "../Models/User";
 
 export default class AuthService

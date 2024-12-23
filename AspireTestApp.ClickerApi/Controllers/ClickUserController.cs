@@ -6,12 +6,18 @@ namespace ClickerApi.Controllers
 {
     public class ClickUserController : ControllerBase
     {
-        private UserService userService;
+        private readonly IUserService userService;
+
+        public ClickUserController(IUserService userService)
+        {
+            this.userService = userService;
+        }
 
         [HttpPost("/sign-up")]
         public async Task<User> RegUser()
         {
             Console.WriteLine("aaaa");
+            Console.WriteLine(userService);
             return await userService.Register();
         }
 

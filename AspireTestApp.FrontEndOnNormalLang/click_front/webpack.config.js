@@ -1,13 +1,46 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpack = require('webpack');
+
+const ROOT = path.resolve(__dirname, 'src');
+const DESTINATION = path.resolve(__dirname, 'dist');
 
 module.exports = (env) => {
-    return {
-  entry: './src/index.tsx',
-  devServer :
-  {
-    port: env.PORT || 3000,
-    proxy: [
+  return {
+    entry: {
+      'main': './src/index.tsx'
+    },
+    output: {
+      filename: '[name].bundle.js',
+      path: DESTINATION
+    },
+    resolve: {
+      extensions: ['.ts', '.tsx', '.js', '.json']
+    },
+    plugins: [
+      new HtmlWebpackPlugin({
+        template: './src/index.html'
+      })
+    ],
+    module: {
+      rules: [
+        {
+          test: /\.tsx?$/,
+          use: 'ts-loader',
+          exclude: /node_modules/,
+        },
+        {
+          test: /\.css$/i,
+          use: ["style-loader", "css-loader"],
+        },
+      ]
+    },
+    
+    devtool: 'cheap-module-source-map',
+    devServer:
+    {
+      port: env.PORT || 3000,
+      proxy: [
         {
           context: ["/api"],
           target:
@@ -17,26 +50,6 @@ module.exports = (env) => {
           secure: false,
         },
       ]
-  },
-  output: {
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist')
-  },
-  resolve: {
-    extensions: ['.tsx', '.ts', '.js']
-  },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: './src/index.html'
-    })
-  ],
-  module: {
-    rules: [
-      {
-        test: '/\.(js|jsx)$/',
-        exclude: /node_modules/,
-        use: 'babel-loader'
-      }
-    ]
-  }}
+    },
+  }
 };

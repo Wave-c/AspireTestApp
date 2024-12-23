@@ -1,25 +1,40 @@
 import User from "../Models/User";
 import { makeAutoObservable } from "mobx";
-import AuthService from "../Services/AuthService.ts";
+import AuthService from "../Services/AuthService";
 
 export default class Store
 {
-    user : User;
-    isAuth = false;
+    private user : User;
+    private isAuth = false;
 
-    constructor()
+    public constructor()
     {
+        this.user = JSON.parse(localStorage.getItem("user"));
+        if(this.user !== null)
+        {
+            this.isAuth = true;
+        }
         makeAutoObservable(this);
     }
 
-    setAuth(bool: boolean)
+    public setAuth(bool: boolean)
     {
         this.isAuth = bool;
     }
 
-    setUser(user : User)
+    public getIsAuth() : boolean
+    {
+        return this.isAuth;
+    }
+
+    public setUser(user : User)
     {
         this.user = user;
+    }
+
+    public getUser()
+    {
+        return this.user;
     }
 
     async signIn(id : string)
@@ -41,7 +56,8 @@ export default class Store
         try
         {
             const response = await AuthService.signUp();
-            localStorage.setItem("id", response.data.Id);
+            
+            localStorage.setItem("user", JSON.stringify(response.data));
             this.setUser(response.data);
             this.setAuth(true);
         }
